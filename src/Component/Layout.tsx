@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import image from '../assets/Frame 6 1.png'
 import pool  from '../assets/Frame 6 2.png'
 import piller from '../assets/Frame 6 3.png'
@@ -19,7 +19,7 @@ import gas from '../assets/Frame 6 17.png'
 import kettle from '../assets/Frame 6 18.png'
 import jug from '../assets/Frame 6 19.png'
 import spoon from '../assets/Frame 6 20.png'
-import {Star, StarIcon} from 'lucide-react'
+import {StarIcon} from 'lucide-react'
 function Layout() {
     // const images = [image, pool, piller, bay]
     const listings =[ 
