@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import {Mountain, Home, Waves, MountainSnow, Music, Castle, Sparkles, Droplets, Gem, Sailboat,Fish,  TreePine, ChevronRight, SlidersHorizontal} from "lucide-react"
  
 function CategoryBar() {
@@ -52,12 +52,12 @@ function CategoryBar() {
            <TreePine size={24}/>
            <span className='text-[12px] p-2'>Treehouses</span>
            </div>
-           <div className='border-1 h-6 w-6 rounded-full items-center '>
+           <div className='border h-6 w-6 rounded-full items-center '>
            <ChevronRight size={23}/>
         </div>
         <div className='flex items-center w-20 border p-3 gap-2 rounded-xl'>
           <SlidersHorizontal size={24}/>
-          <span className='text-[12px] '>Filters</span>
+          <span className='text-[12px]'>Filters</span>
         </div>
     </div>
   )
