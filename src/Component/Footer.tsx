@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { useState } from 'react'
 
 function Footer() {
@@ -139,7 +139,7 @@ function Footer() {
             Show map
           </button>
           {showMap && (
-            <div className='map-container  inset-0 bg-white  mt-4 w-full h-64 border-rounded'>
+            <div className='map-container  fixed inset-0 bg-white  mt-4 w-full h-64 border-rounded'>
             <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2822602308834!2d7.065756899999999!3d6.2264668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1043828d76ceaa25%3A0x3d486d52e1db9520!2sCosmila%20Suites%20and%20Hotels!5e0!3m2!1sen!2sng!4v1771587965589!5m2!1sen!2sng" 
             width="600" 
